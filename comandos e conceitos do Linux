@@ -1,0 +1,44 @@
+comandos Linux
+
+ls: lista os diretorios
+
+-h: exibe todos as varia posiveis de uma comando
+
+ls -lh: exibe as infomaçoes dos arquivos.
+	-> primeiras palavras: permiçoes.
+	/segundas: ??? 
+	/ terceira: usuario permitidos.
+	/ quarta: grupo a que pertence.
+	/ quinto: tamanho do arquivo.
+	-a: exibe os arquivos ocultos.
+	-lh: exibe os detalhes dos arquivos.
+	
+/ sexto: data de criação.
+
+clear: limpa a tela (crt + l).
+
+pwd: exibe o diretorio atual.
+
+cd <caminho 1> <caminho 2>...: acessa um diretrio 
+	// OBS.: o "cd" sozinho volta ao diretorio raiz. 
+	// Dica: "tab" exibe os diretorios que contem o nome digitado. 
+	// Dica.: ".." volta um diretorio a traz. 
+	// Dica.: "-" volta até o ultimo diretorio acessado.
+
+mkdir <nome>: cria apenas uma nova pasta. // -p permite que possa-se criar mais de uma pasata. EX.: mkdir -p /nada/nada1/nada2 // DIca.: quando houver um espaco entre as pastas, ele criara as pasatas individualmente, isto é, elas não  estrão dentro uma da outra.
+
+Sete pra cima: acessa um "historico" dos comandos usados.
+
+history: exibe um historico dos comandos usados nos ultimos Mil comandos.
+	-c: apaga todo o historico.
+	
+rm: apaga um arquivo, ou varios - se passado os outros arquivo separados por espaço.
+	-rf: apaga qualquer tipo de atquivo.
+		*: apaga tudo que estiver no diretorio atual.
+	
+mv: move um arquivo.
+
+=================================================================================================================================================
+Informaçoes
+
+arquivos que começem com um "Ponto" serão ocultos. ls -a exibe os diretorios ocultos.
