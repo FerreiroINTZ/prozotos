@@ -1,6 +1,6 @@
 comandos Linux
 
-ls: lista os diretorios
+ls: lista os diretorios // Pode ser passado um caminho, onde a ultima pasta do caminho tera seus arquivo revelados.
 
 -h: exibe todos as varia posiveis de uma comando
 
@@ -33,12 +33,28 @@ history: exibe um historico dos comandos usados nos ultimos Mil comandos.
 	-c: apaga todo o historico.
 	
 rm: apaga um arquivo, ou varios - se passado os outros arquivo separados por espaço.
-	-rf: apaga qualquer tipo de atquivo.
+	-Rf <nomde do arquivo/pasta>: apaga qualquer tipo de atquivo. // Apaga todos os arquivos que estiverem numa pasta.
 		*: apaga tudo que estiver no diretorio atual.
+	-f: forca a exclusão do arquivo, ou seja, se apaga mesmo se estiver sendo executado.
 	
 mv: move um arquivo.
+	. :traz o arquivo até o diretorio atual. // Representa o Dietorio atual.
 
+cp <origem> <destino>: copia o arquivo e cola em outro lugar. // caso seja uma pasta, tem de colocar o parametro "-R"
+	-a: copia tudo que estiver no local.
+
+vi <nome do arquivo de texto>: habilita a edição de texyo, com varios recursos.
+
+nano <nome do arquivo de texto>: habilita a edição de texto,
+
+cat <nome do arquivo>: exibe o texto do arquivo // 
+	cat <nome do arquivo> > <outro arquivo>: apaga o conteudo do segundo e joga o conteudo de primeiro arquivo no segundo.
+	cat <nome do arquivo> >> <nome do outro arquivo>: Mantem o conteudo do primeiro arquivo e, no segundo arquivo, incrementa com o conteudo do primeiro.
+
+echo <conteudo>: escreve o que estiver na saida do input // echo <conteudo> > <arquivo de tecto>: joga o conteudo digitado no arquivo expecificado.
 =================================================================================================================================================
 Informaçoes
 
 arquivos que começem com um "Ponto" serão ocultos. ls -a exibe os diretorios ocultos.
+
+inode?
